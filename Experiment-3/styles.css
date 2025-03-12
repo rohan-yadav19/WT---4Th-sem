@@ -1,0 +1,105 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+hr {
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+}
+
+/* Text and Paragraph Styling */
+.intro {
+  font-size: 18px;
+  color: #444;
+}
+
+.contact-info {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Profile Links Styling */
+.profile-links {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-links li {
+  margin: 5px;
+}
+
+.profile-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.profile-links a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+/* Button Styling */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Back to Home Button */
+.back-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
