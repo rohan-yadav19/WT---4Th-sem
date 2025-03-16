@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: #f0f0f0">
+    <div class="container">
+      <h1 class="label">Register Us</h1>
+      <form
+        class="login_form"
+        action="home.html"
+        method="post"
+        name="form"
+        onsubmit="return validated()"
+      >
+        <div class="font">Email or Phone</div>
+        <input autocomplete="off" type="text" name="email" />
+        <div class="email_error">Please fill up your Email or phone</div>
+        <div class="font font2">Password</div>
+        <input type="password" name="password" />
+        <div class="pass_err">Please fill up your password</div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
