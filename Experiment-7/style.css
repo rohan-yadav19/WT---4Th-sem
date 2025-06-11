@@ -1,26 +1,54 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f5f5f5;
-}
+/* style.css */
 
-h1 {
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
   color: #333;
 }
 
-nav a {
-  margin-right: 15px;
-  text-decoration: none;
-  color: blue;
-  font-weight: bold;
+h1 {
+  text-align: center;
+  background: #333;
+  color: white;
+  margin: 0;
+  padding: 20px 0;
 }
 
-p {
-  font-size: 18px;
-  color: #555;
-  margin-top: 20px;
+nav {
+  background: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: #666;
 }
 
 section {
-  margin-top: 40px;
+  padding: 40px 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#hoverMessage {
+  font-style: italic;
+  transition: color 0.3s ease;
+}
+
+#hoverMessage:hover {
+  color: #007acc;
 }

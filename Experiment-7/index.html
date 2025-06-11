@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Personal Website</title>
     <link rel="stylesheet" href="style.css" />
     <script>
@@ -46,7 +48,10 @@
     <!-- Home Section -->
     <section id="home">
       <h2>Home</h2>
-      <p>This is the homepage section of your personal website.</p>
+      <p>
+        This is the homepage section of your personal website. Learn about me,
+        my projects, and how to get in touch!
+      </p>
     </section>
 
     <!-- About Section with Hover Effect -->
@@ -55,18 +60,37 @@
       <p id="hoverMessage" onmouseover="changeText()" onmouseout="revertText()">
         Hover over this text to see a change.
       </p>
+      <p>
+        I'm a passionate web developer with interests in front-end technologies,
+        user experience, and creative problem-solving.
+      </p>
     </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio">
       <h2>Portfolio</h2>
       <p>Here's a preview of my work and accomplishments.</p>
+      <ul>
+        <li>💻 Project 1: Responsive Portfolio Website</li>
+        <li>📱 Project 2: Mobile-first E-commerce App</li>
+        <li>🛠️ Project 3: JavaScript Quiz Game</li>
+      </ul>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
       <h2>Contact</h2>
       <p>You can reach out to me via email or social media platforms.</p>
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea
+        ><br /><br />
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   </body>
 </html>
